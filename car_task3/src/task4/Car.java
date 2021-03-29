@@ -29,7 +29,6 @@ public class Car {
 
     public Car(int year, double speed, int weight){
         this(year, speed);
-        this.speed = speed;
         this.weight  = weight;
         color = "Blue";
     }
